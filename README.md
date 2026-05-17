@@ -14,7 +14,7 @@ As a Claude Code skill:
 
 ```sh
 mkdir -p ~/.claude/skills
-git clone https://github.com/<you>/ai-tells-validator ~/.claude/skills/ai-tells-validator
+git clone https://github.com/crimeacs/ai-tells-validator ~/.claude/skills/ai-tells-validator
 ```
 
 Claude Code auto-discovers it on next session.
@@ -22,7 +22,7 @@ Claude Code auto-discovers it on next session.
 As a standalone CLI:
 
 ```sh
-git clone https://github.com/<you>/ai-tells-validator
+git clone https://github.com/crimeacs/ai-tells-validator
 cd ai-tells-validator
 npm link   # optional — gives you `ai-tells-validate` and `ai-tells-rewrite` on PATH
 ```
